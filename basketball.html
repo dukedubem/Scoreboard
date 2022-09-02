@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball App</title>
+    <link rel="stylesheet" href="basketball.css">
+</head>
+<body>
+    <div class="container">
+        <div class="home">
+            <h2 id="home-title">HOME</h2>
+            <div class="score-board" id="score-board-home">
+                <P class="score" id="home-score">0</P>
+            </div>
+            <div class="plus-container">
+                <div class="plus-box">
+                    <button class="plus-text" id="home-plus-1" onclick="increaseHome1()">+1</button>
+                </div>
+                <div class="plus-box">
+                    <button class="plus-text" id="home-plus-2" onclick="increaseHome2()">+2</button>
+                </div>
+                <div class="plus-box">
+                    <button class="plus-text" id="home-plus-3" onclick="increaseHome3()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div class="guest">
+            <h2 id="guest-title">GUEST</h2>
+            <div class="score-board" id="score-board-guest">
+                <P class="score" id="guest-score">0</P>
+            </div>
+            <div class="plus-container">
+                <div class="plus-box">
+                    <button class="plus-text" id="guest-plus-1" onclick="increaseGuest1()">+1</button>
+                </div>
+                <div class="plus-box">
+                    <button class="plus-text" id="guest-plus-2" onclick="increaseGuest2()">+2</button>
+                </div>
+                <div class="plus-box">
+                    <button class="plus-text" id="guest-plus-3" onclick="increaseGuest3()">+3</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="basketball.js"></script>
+</body>
+</html>

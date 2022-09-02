@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Cursed Timer ULiL";
+  src: url("https://github.com/notrickjohnston/cursed-timer-font/raw/main/CursedTimerUlil-Aznm.woff2");
+}
+body {
+  margin: 0;
+  background-color: #1B244A;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+h2 {
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36px;
+  text-align: center;
+  color: #EEEEEE;
+}
+
+.score-board {
+  width: 155px;
+  height: 120px;
+  background: #080001;
+  border-radius: 5px;
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+  font-family: "Cursed Timer ULiL";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+  color: #F94F6D;
+}
+
+.plus-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
+.plus-box {
+  box-sizing: border-box;
+  border: 2px solid;
+  border-radius: 5px;
+}
+.plus-box :hover {
+  cursor: pointer;
+  background: black;
+  color: white;
+}
+
+.plus-text {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: "Cursed Timer ULiL";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+}/*# sourceMappingURL=basketball.css.map */
